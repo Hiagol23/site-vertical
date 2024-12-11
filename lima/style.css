@@ -1,0 +1,130 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color:#333;
+    padding: 16px;
+    z-index: 10;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    padding: 8px;
+}
+
+header nav a:hover{
+    background-color: tomato;
+    transition: 1s;
+}
+
+.grupo {
+    height: 100vh;
+}
+
+.grupo p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-left: 100vh;
+    margin-bottom: 50vh;
+}
+
+#ESCUDO {
+    background-color: #05902A;
+    position: relative; 
+    flex-direction: column;
+}
+
+
+
+
+#ESCUDO img {
+    display: block;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 20vh;
+    top: 15vh; 
+    
+}
+
+
+
+#ELENCO{
+    background-color: rgb(237, 237, 237);
+}
+
+#ELENCO img{
+    display: block;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 20vh;
+    top: 15vh;
+}
+
+#TORCIDA{
+    background-color: #C93232;
+}
+#TROCIDA img{
+    display: block;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 20vh;
+    top: 15vh;
+}
+
+#PATROCINADOR{
+    background-color: #FEC210;
+}
+
+#PATROCINADOR{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+#PATROCINADOR p{
+    margin: 0;
+    font-size: 2.0rem;
+}
+
+#ESTADIO{
+    background-color: #3C4BF2;
+}
+
+#ESTADIO img{
+    display: block;
+    width: 40%;
+    height: 70%;
+    position: relative;
+    left: 20vh;
+    top: 15vh;
+}
